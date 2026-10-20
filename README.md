@@ -1,0 +1,19 @@
+Q1# Morhfeus
+
+[![CodeQL Security](https://github.com/uscolective-byte/trinity-morhfeus/actions/workflows/codeql.yml/badge.svg?branch=main)](https://github.com/uscolective-byte/trinity-morhfeus/actions/workflows/codeql.yml?query=branch%3Amain)
+
+Hlavný pracovný priečinok projektu Trinity. Od 1. októbra 2026 sa nové zdrojové súbory, návrhy, overenia a dokumentácia ukladajú sem.
+
+## Štruktúra
+
+- `Trinity` – aktuálny produkčný Cloudflare Worker a hlavný zdrojový kód.
+- `Local-Gateway` – privátna lokálna brána pre schválené systémové operácie.
+- `PC-Bridge-Worker` – Cloudflare Worker pre heartbeat, stav PC a interné orchestrátorové RPC.
+- `Firebase` – Firebase Hosting stavového mosta na produkčnú Trinity.
+- `Prototypy` – staršie alebo pomocné verzie, ktoré nie sú produkčným zdrojom.
+- `Navrhy` – vizuálne koncepty.
+- `Dokumentacia` – aktuálny stav a história zmien.
+- `Zaznamy` – diagnostika, testy a staršie pracovné logy.
+- `Referencie` – lokálne technické referencie použité pri vývoji.
+
+Zdrojom pravdy pre živú Trinity je priečinok `Trinity`. Prototypy sa nesmú vydávať za produkčnú verziu.
