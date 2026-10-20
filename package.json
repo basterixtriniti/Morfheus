@@ -1,0 +1,10 @@
+{
+  "name": "trinity-morhfeus-root",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "sync": "powershell -ExecutionPolicy Bypass -File ./SYNC-BUILD.ps1 -Full -Test",
+    "build": "npm --prefix Trinity ci && npm --prefix Trinity run build",
+    "deploy": "npm --prefix Trinity run deploy"
+  }
+}
